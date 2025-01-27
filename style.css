@@ -1,0 +1,97 @@
+img {
+  width: 15%;
+  height: 15%;
+}
+
+body {
+  margin-left: 1%;
+}
+
+li {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(9, 83, 9);
+}
+
+h2 {
+  color: navy;
+}
+
+h3 {
+  color: maroon;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer .flink {
+  margin: 10px 0;
+}
+
+.footer .flink a {
+  color: teal; /* Set the link color to teal */
+  text-decoration: none; /* Remove text decoration */
+}
+
+.footer .flink a:hover {
+  color: orange; /* Change color to orange on hover */
+}
+
+/* Styling for the Contact Me button */
+.btn {
+  background-color: teal;
+  color: beige;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn a {
+  color: beige; /* Set the link color inside button to beige */
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: white;
+  color: teal;
+}
+
+.btn a:hover {
+  color: teal;
+}
+
+/* Other general styles */
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Space Mono", monospace;
+}
+
+.intro,
+.contact,
+.hobbies {
+  margin: 20px 0;
+}
+
+hr {
+  border: 1px solid #ccc;
+}
